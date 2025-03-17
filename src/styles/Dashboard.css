@@ -1,0 +1,40 @@
+.dashboard-container {
+    text-align: center;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .dashboard-section {
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 400px;
+    color: white;
+  }
+  
+  .admin {
+    background-color: #e74c3c; /* Red for Admin */
+  }
+  
+  .editor {
+    background-color: #3498db; /* Blue for Editor */
+  }
+  
+  .viewer {
+    background-color: #2ecc71; /* Green for Viewer */
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
