@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
-import "./styles/Navbar.css"; // Import CSS
+import "../styles/Navbar.css"; // Import CSS
 
 <Link to="/profile" className="nav-link">Profile</Link>
 

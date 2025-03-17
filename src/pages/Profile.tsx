@@ -1,6 +1,6 @@
 import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
-import "./styles/Profile.css"; // Import CSS
+import "../styles/Profile.css"; // Import CSS
 
 const Profile = () => {
   const { user } = useAuth();

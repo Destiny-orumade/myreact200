@@ -1,5 +1,5 @@
 import { useAuth } from "../context/AuthContext";
-import "./Dashboard.css"; // Import styles
+import "../styles/Dashboard.css"; // Import styles
 
 const AdminDashboard = () => (
   <div className="dashboard-section admin">
